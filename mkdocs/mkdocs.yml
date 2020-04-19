@@ -1,0 +1,41 @@
+site_name: "SSG Playground"
+repo_url: https://github.com/tri-star/ssg-playground
+edit_uri: edit/master/mkdocs/docs
+theme:
+  name: 'material'
+#  custom_dir: overrides
+  feature:
+    tabs: true
+  palette:
+    primary: indigo
+    accent: indigo
+
+use_directory_urls: false
+
+extra_css:
+  - custom.css
+
+nav:
+  - 'Top': '/'
+  # - '環境資料':
+  #   - 'ローカル環境':
+  #     - './environment/local/index.md'
+  #     - './environment/local/build-vagrant-environment.md'
+  #     - './environment/local/lint-tools.md'
+  #     - './environment/local/ansible.md'
+  #     - './environment/local/build-vagrant-image.md'
+  #   - 'AWS環境':
+  #     - './environment/aws/ssh.md'
+  # - 'システムの設計方針':
+  #   - './design/api-naming.md'
+  # - '運用手順':
+  #   - './operation/development/deploy.md'
+  #   - './operation/original-master.md'
+  #   - './operation/standard-data-update.md'
+      
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - codehilite
+  - toc:
+      permalink: true

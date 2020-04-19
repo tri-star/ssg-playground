@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  app:
+    image: squidfunk/mkdocs-material:5.1.0
+    volumes:
+      - $PWD:/docs
+    ports:
+      - 8000:8000
