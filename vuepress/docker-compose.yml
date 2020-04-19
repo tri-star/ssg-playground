@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  app:
+    image: node:12-buster
+    working_dir: /data
+    command: ["/data/node_modules/.bin/vuepress", "dev"]
+    volumes:
+      - $PWD:/data
+    ports:
+      - 8080:8080

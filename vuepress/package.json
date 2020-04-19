@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@vuepress/theme-vue": "^1.4.1",
+    "vuepress": "^1.4.1"
+  }
+}
