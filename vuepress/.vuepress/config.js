@@ -3,6 +3,7 @@ module.exports = {
   themeConfig: {
     theme: '@vuepress/vue',
     repo: 'tri-star/ssg-playground',
+    docsDir: 'vuepress',
     editLinks: true,
     smoothScroll: true,
     sidebar: {
